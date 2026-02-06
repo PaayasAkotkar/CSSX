@@ -66,7 +66,7 @@ export namespace CSSMaths {
         base: number,
         baseZoom: number,
         unit: string = 'vw',
-        minRatio: number = 0.65, // 65% of original size is usually the "sweet spot"
+        minRatio: number = 0.65,
         growthFactor: number = 1.0, // neutral
     ): string {
         const multiplier = GenerateZoomMultiplier(baseZoom);
