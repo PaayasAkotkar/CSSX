@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="./public/logo.ico" alt="CSSX Logo" width="132" height="132">
+<img src="./public/logo.png" alt="CSSX Logo" width="132" height="132">
 </div>
 </br>
 <details open>
