@@ -1,5 +1,5 @@
 /public/
-/example/app/.node_modules
+/example/app/node_modules
 /example/app/.next
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -43,4 +43,3 @@
 /example/app/*.tsbuildinfo
 /example/app/next-env.d.ts
 
-/example/app/
