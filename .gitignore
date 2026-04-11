@@ -1,2 +1,3 @@
 /public/
-/example/
+/example/.node_modules
+/example/.next
