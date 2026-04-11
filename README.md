@@ -2,9 +2,18 @@
 <div align="center">
 <img src="./images/logo.png" alt="CSSX Logo" width="132" height="132">
 </div>
+
+## Content
+1. [Device](./services/device/use-device.tsx)
+2. [Responsive](./services/responsive/use-responsive.tsx)
+3. [Sizes](./services/sizes/sizes.tsx)
+4. [Zoom](./services/zoom/use-zoom.tsx)
+
 </br>
-<details open>
-<summary><b>Motivation 🔥</b></summary>
+
+## Logical Title
+
+<summary style="font-size:1.5em;"><b>Motivation 🔥</b></summary>
 <div align="center">
 <h1>CSSX</h1>
 <p>
@@ -20,11 +29,9 @@ Things didn't go perfectly at first 😞. The layout was responsive, but the cod
 That’s why I created <a href="./services/responsive/use-responsive.tsx"><code>useResponsive</code></a>. It focuses on the basics: shapes and the clamp function. Why shapes? Because everything—buttons, layouts, boxes—is just a shape. By focusing on the geometry instead of overcomplicating the CSS, the whole process just clicked.
 </p>
 </div>
-</details>
 </br>
 
-<details open>
-<summary><b>Development Insights 😅</b></summary>
+<summary  style="font-size:1.5em;"><b>Development Insights 😅</b></summary>
 <p>
 <ul>
 <li>
@@ -36,7 +43,6 @@ That’s why I created <a href="./services/responsive/use-responsive.tsx"><code>
 </ul>
 
 </p>
-</details>
 
 <br />
 <div align="center">
