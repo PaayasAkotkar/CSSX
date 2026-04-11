@@ -11,7 +11,7 @@
 
 </br>
 
-## Logical Title
+## Description
 
 <summary style="font-size:1.5em;"><b>Motivation 🔥</b></summary>
 <div align="center">
