@@ -1,5 +1,5 @@
 // @ copyright 2026
-namespace CSSMaths {
+export namespace CSSMaths {
     // GenerateClamp returns the clamp value based on params
     // targetPx: figma px or any as per your desired resp
     // baseDimension: display dim width 

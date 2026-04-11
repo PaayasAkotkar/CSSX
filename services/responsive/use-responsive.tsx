@@ -11,7 +11,7 @@ import {
 } from '../../algorithm/types'
 import { useDevice } from '../device/use-device'
 import { useZoomLevel } from '../zoom/use-zoom'
-
+import { CSSMaths } from '../../algorithm/main'
 // -----------------------------------------------------------------------------------------------------
 // flow:
 // place the ResponsiveProvider in the layout.tsx folder else nothing will work
