@@ -38,10 +38,7 @@ export interface CircleButtonScaleToken {
 
 export interface AllButtonSizes {
     squareBtn: ButtonScaleToken
-    navBtn: ButtonScaleToken
     circleBtn: CircleButtonScaleToken
-    rainbowBtn: CircleButtonScaleToken
-    roundBtn: CircleButtonScaleToken
     rectBtn: ButtonScaleToken
 }
 export const buttons: AllButtonSizes = {
@@ -57,18 +54,7 @@ export const buttons: AllButtonSizes = {
         xxxs: { width: 50, height: 32, fontSize: 20 },
 
     },
-    navBtn: {
-        // top nav buttons — wide enough to fit icon + label
-        xxxl: { width: 480, height: 192, fontSize: 120 },
-        xxl: { width: 380, height: 152, fontSize: 95 },
-        xl: { width: 300, height: 120, fontSize: 75 },
-        large: { width: 240, height: 96, fontSize: 60 },
-        medium: { width: 200, height: 80, fontSize: 50 },
-        small: { width: 160, height: 64, fontSize: 40 },
-        xs: { width: 120, height: 48, fontSize: 30 },
-        xxs: { width: 70, height: 70, fontSize: 37 },
-        xxxs: { width: 30, height: 12, fontSize: 20 },
-    },
+
     rectBtn: {
         xxxl: { width: 960, height: 320, fontSize: 160 },
         xxl: { width: 760, height: 253, fontSize: 126 },
@@ -93,31 +79,7 @@ export const buttons: AllButtonSizes = {
         xxxxs: { size: 30, fontSize: 15 },
 
     },
-    rainbowBtn: {
-        xxxl: { size: 640, fontSize: 320 },
-        xxl: { size: 500, fontSize: 250 },
-        xl: { size: 392, fontSize: 196 },
-        large: { size: 314, fontSize: 157 },
-        medium: { size: 254, fontSize: 127 },
-        small: { size: 200, fontSize: 100 },
-        xs: { size: 144, fontSize: 72 },
-        xxs: { size: 96, fontSize: 48 },
-        xxxs: { size: 50, fontSize: 25 },
-        xxxxs: { size: 30, fontSize: 15 },
-    },
-    roundBtn: {
-        xxxl: { size: 640, fontSize: 320 },
-        xxl: { size: 500, fontSize: 250 },
-        xl: { size: 392, fontSize: 196 },
-        large: { size: 314, fontSize: 157 },
-        medium: { size: 54, fontSize: 127 },
-        small: { size: 200, fontSize: 100 },
-        xs: { size: 144, fontSize: 72 },
-        xxs: { size: 96, fontSize: 48 },
-        xxxs: { size: 50, fontSize: 25 },
-        xxxxs: { size: 30, fontSize: 15 },
 
-    },
 }
 
 export function useButtonSizes(): AllButtonSizes {
