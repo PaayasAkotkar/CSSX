@@ -3,7 +3,9 @@
 Welcome I am really excited that you are here to contribute to CSSX. The CSSX is a responsive and roboust design system which reduces the complexity for the responsive design and component management.
 
 # Status 💡
+<div>
 1.Responsive: contains the responsive design system that includes:
+<br>
                a.algortihm             -> types.ts -> key file that which useResponsive uses to delivery the resp.
                                        -> main.ts -> contains the GenerateClamp func which is the essence of resp design. 
                b.services-> device     -> tracking the device pixels
@@ -13,7 +15,7 @@ Welcome I am really excited that you are here to contribute to CSSX. The CSSX is
                             zoom       -> lively track of browser-zoom
                             
         
-
+</div>
 ---
 
 ### Getting Started
