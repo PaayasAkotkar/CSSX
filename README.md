@@ -26,7 +26,7 @@ The logic behind CSSX started because I was tired of fighting with responsive la
 To make it work, I refined the <a href="./responsive/algorithm/main.ts"><code>GenerateClamp</code></a> algorithm and built the <a href="./responsive/services/device/use-device.tsx"><code>useDevice</code></a> service. I even added <a href="./responsive/services/zoom/use-zoom.tsx"><code>useZoom</code></a> just so I could finally have real control over how the browser handles zooming.
 <br />
 <section><b>How useResponsive was founded</b></section>
-Things didn't go perfectly at first 😞. The layout was responsive, but the code became a mess of <code>useDevice</code> calls and <code>counterScale</code> logic to fix zoom issues. Undoing changes was a nightmare.
+Things didn't go perfectly at first 😞;the layout was responsive, but the code became a mess of <code>useDevice</code> calls and <code>counterScale</code> logic to fix zoom issues. Undoing changes was a nightmare.
 <br />
 That’s why I created <a href="./responsive/services/responsive/use-responsive.tsx"><code>useResponsive</code></a>. It focuses on the basics: shapes and the clamp function. Why shapes? Because everything—buttons, layouts, boxes—is just a shape. By focusing on the geometry instead of overcomplicating the CSS, the whole process just clicked.
 </p>
