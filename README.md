@@ -3,7 +3,7 @@
 <img src="./images/logo.png" alt="CSSX Logo" width="132" height="132">
 </div>
 
-## Content
+## Content 📇
 1. [Device](./responsive/services/device/use-device.tsx)
 2. [Responsive](./responsive/services/responsive/use-responsive.tsx)
 3. [Sizes](./responsive/services/sizes/sizes.tsx)
@@ -11,9 +11,11 @@
 
 </br>
 
-## Description
+## Theme 🎨
+          CSSX provides the handful of algorithm to reduce the complexity for responsive layout.
 
-<summary style="font-size:1.5em;"><b>Motivation 🔥</b></summary>
+## Motivation 🔥
+
 <div align="center">
 <h1>CSSX</h1>
 <p>
