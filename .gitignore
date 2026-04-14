@@ -1,45 +1,45 @@
 /public/
-/example/app/node_modules
-/example/app/.next
+/example/cssx/node_modules
+/example/cssx/.next
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/example/app/.pnp
-/example/app/.pnp.*
-/example/app/.yarn/*
-!./example/app/yarn/patches
-!./example/app/yarn/plugins
-!./example/app/yarn/releases
-!./example/app/yarn/versions
+/example/cssx/.pnp
+/example/cssx/.pnp.*
+/example/cssx/.yarn/*
+!./example/cssx/yarn/patches
+!./example/cssx/yarn/plugins
+!./example/cssx/yarn/releases
+!./example/cssx/yarn/versions
 
 # testing
-/example/app/coverage
+/example/cssx/coverage
 
 # next.js
-/example/app/.next/
-/example/app/out/
+/example/cssx/.next/
+/example/cssx/out/
 
 # production
-/example/app/build
+/example/cssx/build
 
 # misc
-/example/app/.DS_Store
-/example/app/*.pem
+/example/cssx/.DS_Store
+/example/cssx/*.pem
 
 # debug
-/example/app/npm-debug.log*
-/example/app/yarn-debug.log*
-/example/app/yarn-error.log*
-/example/app/.pnpm-debug.log*
+/example/cssx/npm-debug.log*
+/example/cssx/yarn-debug.log*
+/example/cssx/yarn-error.log*
+/example/cssx/.pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-/example/app/.env*
+/example/cssx/.env*
 
 # vercel
-/example/app/.vercel
+/example/cssx/.vercel
 
 # typescript
-/example/app/*.tsbuildinfo
-/example/app/next-env.d.ts
+/example/cssx/*.tsbuildinfo
+/example/cssx/next-env.d.ts
 
