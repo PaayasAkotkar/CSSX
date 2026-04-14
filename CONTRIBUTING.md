@@ -7,11 +7,15 @@ Welcome I am really excited that you are here to contribute to CSSX. The CSSX is
 1.Responsive: contains the responsive design system that includes:
 <br>
                a.algortihm             -> types.ts -> key file that which useResponsive uses to delivery the resp.
+  <br>
                                        -> main.ts -> contains the GenerateClamp func which is the essence of resp design. 
-               b.services-> device     -> tracking the device pixels
+  <br>  
+  b.services-> device     -> tracking the device pixels
                             responsive -> uses device, sizes to generate the resp;          
                                           you can neglect that resp uses the zoom or sizes too.
+  <br>
                             sizes      -> wrote on the basis of to playaround
+  <br>
                             zoom       -> lively track of browser-zoom
                             
         
